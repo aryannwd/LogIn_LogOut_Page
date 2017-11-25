@@ -1,0 +1,37 @@
+<div class="container ">
+	<div class="contents">
+		<div class="col col-sm-4 offset-4" style="border: 2px solid grey;
+	border-radius: 8px;
+	border-color: black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 20px;">
+			<label>
+					<h6>Sign in to continue. </h6>
+			</label>
+			<div class="form-group ">
+				<input  class="form-control" type="text" ng-model="form.email" placeholder="some@domain.com" >
+			</div>
+			<div class="form-group ">
+				<input  class="form-control" type="password" ng-model="form.password" placeholder="Password" >
+			</div>
+			<div>
+				<div >
+	                <label class="form-check-label">
+	                        <input type="checkbox"  id="keepmein" ng-model="form.keepmein" >
+	                    <label for="keepmein">Keep me logged in</label>
+	                                
+	                </label>
+	            </div>
+	        </div>
+			<div>
+				<button type="submit" class="btn btn-primary" ng-click="login()">Log In</button>
+			</div>
+			<div>
+				<a  href="#">Sign Up</a>
+				<a class="offset-7" href="#">Need help?</a>
+
+			</div>
+		</div>
+	</div>
+</div>

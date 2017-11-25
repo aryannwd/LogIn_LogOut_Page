@@ -1,0 +1,24 @@
+.jumbotron {
+    padding:20px 30px 20px 30px;
+    margin:0px auto;
+    background: #18bc9c ;
+    color:floralwhite;
+}
+
+.modal-header{
+	background-color: green;
+	
+	}
+
+
+.modal-body{
+
+   
+    background-color: #f44336;
+    color: white;
+}
+
+#modal{
+	padding-top: 500px ;
+}
+
