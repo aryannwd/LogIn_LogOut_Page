@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   
 	
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 
@@ -16,7 +16,7 @@
 <body ng-controller="angular_controller">
 	<header class="jumbotron" >
 		<div ng-show="isLoggedIn" >
-	<div class="navigation">
+	<div >
 	
 	
 		<a  href="#/dashboard">Home</a>
@@ -67,8 +67,7 @@
 
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="node_modules/tether/dist/js/tether.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+       
 
 <script type="text/javascript">
 		var modal = document.getElementById('modal');

@@ -94,13 +94,14 @@
 			}
 			unset($_SESSION['id']);
 			unset($_SESSION['username']);
+			print_r($_SESSION);
 			session_destroy();
 		}
 
 		public function unset_cookie(){
 			if (isset($_COOKIE['id'])) {
 				$expiration_date = time() - 3600;
-				setcookie(("id", "", $expiration_date, "/"));
+				setcookie("id", "", $expiration_date, "/");
 				setcookie("username", "",  $expiration_date, "/");
 			}
 		}
